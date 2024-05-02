@@ -1,0 +1,45 @@
+.main {
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    width: 400px;
+    height: 380px;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+}
+
+h1 {
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+
+#in {
+    margin-bottom: 20px;
+    padding: 5px 10px;
+}
+
+button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 8px 30px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.res {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#r {
+    color: red;
+}
+
+.c {
+    cursor: pointer;
+}
+
+.f {
+    cursor: pointer;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random password</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="two">
+        <div class="main">
+            <div id="m">
+                <h1>Password generator</h1>
+                <button onclick="generate()">Generate</button>
+            </div>
+            
+            <div class="form">
+                <div id="fordiv">
+                    <label for="">Number of passwords:</label>
+                    <input type="number" id="fori">
+                </div>  
+                <div id="numdiv">
+                    <label for="">Password length:</label>
+                    <input type="number" id="num">
+                </div>            
+                <br>
+                <div id="lowerdiv">
+                    <input type="checkbox" id="lower">
+                    <label for="">Include Lowercase</label>
+                </div>
+                <br>
+                <div id="upperdiv">
+                    <input type="checkbox"  id="upper">
+                    <label for="">Include Uppercase</label>
+                </div>            
+                <br>
+                <div id="numsdiv">
+                    <input type="checkbox" id="nums">
+                    <label for="">Include Numbers</label>
+                </div>            
+                <br>
+                <div id="symdiv">
+                    <input type="checkbox" id="sym">
+                    <label for="">Include Symbols</label>
+                </div>
+            </div>
+        </div>
+        <div id="results">
+            <h1 style="text-align: center;">Generated passwords:</h1>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

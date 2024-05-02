@@ -1,0 +1,40 @@
+.main {
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+.text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    height: 80px;
+}
+
+#but {
+    border-radius: 20px;
+    border: none;
+    background-color: WHITE;
+    color: rgb(12, 202, 255);
+    transition: 0.4s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+#but:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    background-color: rgb(12, 202, 255);
+    color: white;
+}
+
+input {
+    text-align: center;
+    cursor: pointer;
+}
+
+img {
+    width: 220px;
+    margin: 10px;
+}

@@ -1,0 +1,74 @@
+.two {
+    display: flex;
+    justify-content: space-around;
+    align-items:start;
+    margin-top: 4%;
+}
+
+#results {
+    width: 400px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#results p{
+    padding-left: 20px;
+}
+
+.main {
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#m {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+button {
+    padding: 8px 30px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    color: rgb(0, 197, 0);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+    transition: 0.4s;
+}
+
+button:hover {
+    background-color: rgb(0, 197, 0);
+    color: white;
+}
+
+.form {
+    margin-left: 20px;
+}
+
+
+#symdiv {
+    padding-bottom: 20px;
+}
+
+#fordiv, #numdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 950px) {
+    .two {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+}

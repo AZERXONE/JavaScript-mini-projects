@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature con</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <h1>Temperature conversion</h1>
+        <input type="text" id="in" placeholder="Celsius(°C)">
+        <p onclick="ctff()" class="c">Celius(°C) → Fahrenheit(°F)</p>
+        <p onclick="ftc()" class="f">Fahrenheit(°F) → Celius(°C)</p>
+        <button onclick="sub()">Submit</button>
+        <div class="res">
+            <p>Result:</p>
+            <div class="result">
+                <p id="r"></p>
+            </div>
+        </div>
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
