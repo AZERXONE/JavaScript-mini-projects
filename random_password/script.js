@@ -37,13 +37,6 @@ function generate(){
             let node = document.createTextNode("- " + pwd)
             el.appendChild(node)
             results.appendChild(el)
-
-            if(pwd == "CGITAR"){
-                console.log("Found")
-                alert("found")
-            }
-            
-    
         }
     }
     else{
